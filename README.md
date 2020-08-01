@@ -1,4 +1,4 @@
-# verus_mon_polybar
+# verus_polybar
 
 Simple way to monitor verus mining with a polybar module. 
 To use:
