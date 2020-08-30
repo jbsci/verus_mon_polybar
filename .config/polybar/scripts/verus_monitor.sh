@@ -31,4 +31,4 @@ nthreads=$("$vrscexec" getmininginfo | jq '.genproclimit')
 balance=$("$vrscexec" getwalletinfo | jq '.balance')
 
 #Format for master output
-echo $MHps 'MH/s ('$nthreads'T) -- Balance: '$balance
+echo $MHps 'MH/s ('$nthreads'T) | Bal: '$balance
